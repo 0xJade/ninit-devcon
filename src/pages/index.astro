@@ -1,8 +1,6 @@
 ---
 import Layout from '@layouts/Default.astro';
-import RecentBlogPosts from '@components/generic/RecentBlogPosts.astro';
 import MobileSocials from '@components/home/MobileSocials.astro';
-import { Pill } from '@eliancodes/brutal-ui';
 import { Button } from '@eliancodes/brutal-ui';
 import { Card } from '@eliancodes/brutal-ui';
 
@@ -25,14 +23,14 @@ const builtWith = [
 
 <Layout
   title='Home'
-  pageTitle='Brutal Theme | Home'
+  pageTitle='Brutal Theme | Home'
   description='Brutal is a minimalistic, neobrutalism theme for Astro.'
 >
-  <main class='bg-pink p-6'>
+  <main class='bg-pink p-6 flex flex-col items-center'>
     <MobileSocials />
-    <section id='about' class='grid md:grid-cols-8 gap-8 mt-4'>
+    <section id='about' class='w-full max-w-4xl flex flex-col items-center gap-8 mt-4'>
       <h2 class='hidden'>About Brutal</h2>
-      <div class='col-span-4'>
+      <div class='w-full md:w-2/3'>
         <Card>
           <div class='flex flex-col justify-between items-start gap-4'>
             <p class='mt-4 outfit text-2xl md:text-5xl lg:text-7xl'>
@@ -42,7 +40,7 @@ const builtWith = [
                 href='https://astro.build/'>Ninit</a
               >
             </p>
-            <p class='mt-2 outfit text-xl md:text-3xl lg:text-5xl'>
+            <p class='mt-2 outfit text-base md:text-xl lg:text-3xl'>
               Ninit, short for Novus Initium, embodies the concept of 'new beginnings' in governance, and coordination. Through an interconnected community, we aim to innovate, test, and help deploy transparent, accountable governance systems.
             </p>
             <Button target={'_self'} href='/blog/'>
@@ -51,15 +49,45 @@ const builtWith = [
           </div>
         </Card>
       </div>
-     
-      <div class='col-span-4'>
+
+      <div class='w-full md:w-2/3'>
         <Card>
-          <p class='poppins'>
-            Ninit is set to redefine the standards of community coordination and operation, with around 100 local members assisting in event organization, venue set-up, free live music, and more.
+          <div class='flex flex-col justify-between items-start gap-4'>
+            <p class='mt-4 outfit text-2xl md:text-5xl lg:text-7xl'>
+              Scaffold Grants <a
+                class='text-white'
+                target='_blank'
+                href='https://scaffold-grants.vercel.app/'>App</a
+              >
+            </p>
+            <p class='mt-2 outfit text-base md:text-xl lg:text-3xl'>
+              Scaffold Grants is an SDK grants stack tool built on Scaffold-ETH-2, designed to facilitate the customization and experimentation of grant programs and funding mechanisms for various organizational structures and entities. 
+            </p>
+            <Button href="https://explorer.gitcoin.co/#/projects/0x7ee2df261a02e30fa952e670db2468fc7eb1863becb6e744865faaa4e05cac83" target="_blank">
+              Donate Now
+            </Button>
+          </div>
+        </Card>
+      </div>
+
+      <div class='w-full md:w-2/3'>
+        <Card>
+          <p class='mt-4 mb-6 outfit text-2xl md:text-5xl lg:text-7xl'>
+            Join us at <a
+              class='text-white'
+              target='_blank'
+              href='https://devcon.org/en/'>Devcon</a>
+          </p>
+          <p class='poppins text-base md:text-xl lg:text-2xl mb-4'>
+            Fill out the 
+            <a
+              class='text-white'
+              target='_blank'
+              href='https://docs.google.com/forms/d/e/1FAIpQLSd-WRHylUJXQ1B15OEEM-kU4qQHl5vVuTvDNhd2aR4rrT3M9Q/viewform'>application</a>
+            to be considered for our Hacker House.
           </p>
         </Card>
       </div>
     </section>
-    <RecentBlogPosts />
   </main>
 </Layout>
