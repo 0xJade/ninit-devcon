@@ -1,6 +1,6 @@
 ---
 title: Blogpost 1
-pubDate: 26/08/2024 20:35
+pubDate: 08/26/2024 20:35
 author: "Jade Clyne"
 tags:
   - JavaScript
