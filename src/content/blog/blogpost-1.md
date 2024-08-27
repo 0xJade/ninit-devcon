@@ -1,47 +1,24 @@
 ---
 title: Blogpost 1
-pubDate: 11/09/2022 14:25
-author: "Elian Van Cutsem"
+pubDate: 26/08/2024 20:35
+author: "Jade Clyne"
 tags:
   - JavaScript
   - Astro
   - UnoCSS
 imgUrl: '../../assets/astro.jpeg'
-description: Lorem markdownum longo os thyrso telum, continet servat fetus nymphae, vox nocte sedesque, decimo. Omnia esse, quam sive; conplevit illis indestrictus admovit dedit sub quod protectus, impedit non.
+description: We are a collaborative community of innovators, educators, and change-makers dedicated to advancing knowledge and driving transformative governance. Our mission is to empower individuals through education, foster creative problem-solving, and experiment with novel governance practices that shape a better future. Together, we blend vision with action, turning ambitious ideas into impactful realities.
 layout: '../../layouts/BlogPost.astro'
 ---
 
-## Deorum petiit ignis
+# Welcome to Novus Initium!
 
-Lorem markdownum longo os thyrso telum, continet servat fetus nymphae, *vox
-nocte sedesque*, decimo. Omnia esse, quam sive; conplevit illis indestrictus
-admovit dedit sub quod protectus, impedit non.
+We are a collaborative community of innovators, educators, and change-makers dedicated to advancing knowledge and driving transformative governance. Our mission is to empower individuals through education, foster creative problem-solving, and experiment with novel governance practices that shape a better future. Together, we blend vision with action, turning ambitious ideas into impactful realities.
 
-## Iovis late orbem Perseus sunt
+## Our Journey
 
-Aras reperire, sui motis correpti coniunx Onetor amore ferire lacertis, petiit.
-Bis pallor et mecum me, igne patruelibus *tendebam*, vultu sterilique terruerat
-*tempore* medium aera **eadem Mittor**.
+Since 2018, we've been on a mission to empower individuals like you through education and governance in the ever-evolving world of Web3. It all began with courses on Web3 onboarding and cryptography. Fast forward to today, and we’re hosting Web3 Wednesdays, leading study groups, and participating in hackathons, all to fuel our community’s journey in the Web3 space.
 
-- Non turba loca dederunt primordia ineamus Dictys
-- Tanti amat mundus sedula
-- Potuissent aetas parili coniuge se lumina breve
-- Tamen ille crepitantibus ulla coeperunt quibus iugulo
-- Pindusque solacia luctataque felix
+## How to get Involved
 
-## Longum minus sic saepe
-
-Genu cupiens quoque: cum dolor: sollicitive cantu, et piae Leuconoe, huius non
-nil tuli Peleusque rauca. Et alvum cuncti Hippodamas meritis nec coniunx ausa,
-pete. Congestaque nisi nullus poena. Tanto cum, curvis vulnera quod optatis,
-trahens conplexa saepe.
-
-Hominum quo. Signa germanaeque iuvat at feruntur precantibus corpus praebuerat
-excipit mixtaeque inferior, haec percepit regum: nec nec sit ferenti.
-
-## Geminas namque quod referitur argenteus aderat superstes
-
-Insistere pugno. Cum morae vigilantibus dulces Cycnus: neque cum sororis.
-
-Hac Aestas solet docebo tandem tamquam omnis vitiantur mitte, vatis in animique
-infelix passimque. Superasset onus.
+Ready to dive in? Joining our community is simple. Hop into our Discord server and introduce yourself—you're already among friends. Don’t miss out on our Web3 Wednesdays, where we explore tools, share demos, and help you kickstart your journey in Web3. Your learning adventure with us starts the moment you say gm.

@@ -11,17 +11,16 @@ description: Lorem markdownum longo os thyrso telum, continet servat fetus nymph
 layout: '../../layouts/BlogPost.astro'
 ---
 
-## Deorum petiit ignis
+## Uniswap Liquidity V3 Math Study Group
 
-Lorem markdownum longo os thyrso telum, continet servat fetus nymphae, *vox
-nocte sedesque*, decimo. Omnia esse, quam sive; conplevit illis indestrictus
-admovit dedit sub quod protectus, impedit non.
+In a peer-to-peer manner, we’ll delve into the mathematics and infrastructure behind the leading DeFi platform! They are scheduled every Tuesday at 
 
-## Iovis late orbem Perseus sunt
+During the sessions we will cover:
 
-Aras reperire, sui motis correpti coniunx Onetor amore ferire lacertis, petiit.
-Bis pallor et mecum me, igne patruelibus *tendebam*, vultu sterilique terruerat
-*tempore* medium aera **eadem Mittor**.
+- Uniswap Whitepaper
+- Uniswap V3 Development Book
+- Uniswap Documentation
+- Uniwswap V3 Tables and Queries (Synchronized with the Dune Analytics Study Group)
 
 - Non turba loca dederunt primordia ineamus Dictys
 - Tanti amat mundus sedula
