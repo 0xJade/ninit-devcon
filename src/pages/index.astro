@@ -21,6 +21,20 @@ const builtWith = [
 ];
 ---
 
+<style>
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    padding: 2rem;
+  }
+
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+</style>
+
 <Layout
   title='Home'
   pageTitle='Ninit | Home'
@@ -28,12 +42,12 @@ const builtWith = [
 >
   <main class='bg-pink p-6 flex flex-col items-center'>
     <MobileSocials />
-    <section id='about' class='w-full max-w-4xl flex flex-col items-center gap-8 mt-4'>
+    <section id='about' class='w-full max-w-4xl flex flex-col items-center gap-15 mt-4'>
       <h2 class='hidden'>About Brutal</h2>
 
       <div class='w-full md:w-2/3'>
-        <Card>
-          <div class='flex flex-col justify-between items-start gap-8'>
+        <Card class="card" style="margin-bottom: 4rem;">
+          <div class='flex flex-col justify-between items-start gap-15'>
             <p class='mt-4 outfit text-2xl md:text-5xl lg:text-7xl'>
               What is <a
                 class='text-white'
@@ -50,10 +64,9 @@ const builtWith = [
           </div>
         </Card>
       </div>
-      <br></br>
       <div class='w-full md:w-2/3'>
-        <Card>
-          <div class='flex flex-col justify-between items-start gap-8'>
+        <Card style="margin-bottom: 4rem;">
+          <div class='flex flex-col justify-between items-start gap-15'>
             <p class='mt-4 outfit text-2xl md:text-5xl lg:text-7xl'>
               Scaffold Grants <a
                 class='text-white'
@@ -70,10 +83,9 @@ const builtWith = [
           </div>
         </Card>
       </div>
-      <br></br>
 
       <div class='w-full md:w-2/3'>
-        <Card>
+        <Card style="margin-bottom: 4rem;">
           <p class='mt-4 mb-6 outfit text-2xl md:text-5xl lg:text-7xl'>
             Join us at <a
               class='text-white'
